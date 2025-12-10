@@ -1,0 +1,16 @@
+backend/
+  api-service/
+    app/
+      __init__.py
+      main.py
+      config.py
+      database.py
+      models.py
+      schemas.py
+      queues.py
+      routes/
+        __init__.py
+        import_google_drive.py
+        images.py
+    requirements.txt
+    Dockerfile
