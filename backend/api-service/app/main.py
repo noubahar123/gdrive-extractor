@@ -13,6 +13,8 @@ app = FastAPI(title="Image Import API")
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    # Adding railway domain
+    "https://humorous-creation-production-841f.up.railway.app/"
 ]
 
 app.add_middleware(
